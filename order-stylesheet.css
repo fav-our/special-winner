@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;900&display=swap");
+
+button {
+  font-size: 16px;
+}
+* {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+}
+.wrapper >div:first-child {
+  width: 100%;
+  max-width: 375px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 32px; 
+}
+.attribution {
+  margin-top: 32px; 
+  
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-content {
+  padding: 40px;
+}
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color:hsl(225, 100%, 94%)
+}
+.main-content-header h3 {
+text-align: center;
+}
+.main-content-header p {
+  text-align: center;
+}
+.main-image {
+  width: 100%;
+  border-top-right-radius:  20px;
+  border-top-left-radius:  20px;
+}
+.sec-image {
+}
+.main-content-header h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: hsl(223, 47%, 23%);
+}
+.main-content-header p {
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 12px;
+}
+.main-content-btn {
+  margin-top: 24px;
+}
+.main-content-btn button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 900;
+  border: none;
+}
+.secondary-btn {
+  margin-top: px;
+  background: none;
+  color: hsl(224, 23%, 55%);
+}
+.primary-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  box-shadow: 6px 5px 18px hsla(224, 23%, 55%, 40%);
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 9px;
+}
+.plan-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(224, 23%, 55%);
+  background-color: hsl(225, 100%, 98%);
+  padding: 16px 16px 16px 16px;
+  border-radius: 10px;
+}
+.plan-item-header {
+  display: flex;
+  align-items: center;
+  color: hsl(224, 23%, 55%);
+    
+}
+.plan-item-desc p {
+font-weight: 900;
+font-size: 14px;
+padding-left: 10px;
+color: hsl(223, 47%, 23%);
+}
+.plan-item-desc span {
+padding-left: 10px;
+font-size: 12px;
+}
+.sec-image {
+height: 32px;
+width: 32px;
+align-self: center;
+}
+@media screen and (max-width: 375px) {
+  .wrapper {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }  
+}
